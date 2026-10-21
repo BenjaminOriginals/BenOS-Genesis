@@ -2,11 +2,14 @@
 BenOS HTML is a high-performance, browser-based OS for productivity and creation running in any modern browser on a very light installation file (zip downloadable here). Built on HTML and JavaScript, BenOS HTML offers an intuitive file manager, exclusive music on BenMusic, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Here is a list of the apps pre-installed on BenOS HTML:
 | App | Function |
 |-----|----------|
+| BenAI | The on-device AI assistant (with Open Chat download available) that helps you with everyday tasks and knowhow |
 | BenStudio | Native HTML, CSS, and JavaScript editor - make your own apps to install right in BenOS HTML! With BenStudio, as long as you can program in HTML, you can build any app you want! |
 | BenMusic | Ad-free, offline music - no subscription required! The library of available music is always expanding, and you can request new music to be added by contacting us (see Contact section). |
 | Files | Your secure personal and workspace file viewer. The Files app gives ultimate transparency, truly showing you what is taking up storage on your BenOS device. |
 | Terminal | Interact with the system and execute commands through a text-based interface. |
 | BenPen | Make simple art and handwritten notes natively in BenOS HTML. Save, open, edit, and export projects any time! |
+| BenHealth | Health meets the big screen. With everything you need on the biggest portable (or non portable) screen you have, interact with an advanced, research-driven health app. No payments, ever. |
+| BenCam | Snap a picture or video in the app, or use it to make your profile picture. Includes night mode and Pro Tools. |
 | BenViewer | View images and videos natively in BenOS HTML. |
 | BenBrowser | A fast, secure, and private browser built for your workflow, seamlessly integrated into the BenOS ecosystem. |
 
@@ -32,17 +35,29 @@ When the HTML file is opened in your browser, open settings and set up your user
 To make BenOS as lightweight as possible, the entire OS lives inside a single HTML/JS configuration. The file system relies heavily on async JavaScript, using Promises to manage IndexedDB transactions. For security, apps launch inside their own sandboxed iframes (using allow-scripts and allow-forms). We also built a custom crash bridge listener, so if one app goes down, it won’t crash the whole OS.
 
 ## Screenshots
-| Lock Screen | Desktop | 
-| ----------- | ------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-05 at 2 42 12 PM" src="https://github.com/user-attachments/assets/6d8783db-dda0-4bd3-96fe-d52fa357c871" /> | <img width="1440" height="812" alt="Screenshot 2026-10-05 at 2 43 05 PM" src="https://github.com/user-attachments/assets/bcc7a1b6-0e9d-44ea-a974-962a7aba84a8" /> |
+| Sign in Screen | Desktop | 
+| -------------- | ------- |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 03 11 PM" src="https://github.com/user-attachments/assets/eb385fe0-e739-4d71-bb13-89806590ef08" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 01 44 PM" src="https://github.com/user-attachments/assets/e6b43c89-36aa-4359-a56f-a560ffa81bae" /> |
+
+| Lock Screen | Desktop (Dark Mode) |
+| ----------- | ------------------- |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 03 32 PM" src="https://github.com/user-attachments/assets/4e15a407-cd33-4fe9-b239-fda98e0741ea" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 04 00 PM" src="https://github.com/user-attachments/assets/f718f7f4-632e-41bb-acc9-3320f35f4848" /> |
 
 | BenMusic | BenAI |
 | -------- | ----- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-05 at 2 43 34 PM" src="https://github.com/user-attachments/assets/0054dafa-0d1e-449f-afe5-9fa843ba9d33" /> | <img width="1440" height="812" alt="Screenshot 2026-10-05 at 2 44 01 PM" src="https://github.com/user-attachments/assets/037cddf7-3504-4ec1-8c42-3ba3e5f1c11b" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 04 33 PM" src="https://github.com/user-attachments/assets/9108d968-6eb8-498f-a917-6d694fdf0684" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 05 28 PM" src="https://github.com/user-attachments/assets/f01b889c-683e-4134-8b44-74895c1536fb" /> |
+
+| BenWeather | BenBrowser |
+| ---------- | ---------- |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 10 06 PM" src="https://github.com/user-attachments/assets/9a153301-0f2c-45c5-bba9-96ae4c13849f" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 10 42 PM" src="https://github.com/user-attachments/assets/6a238dc5-e83b-4e1e-a686-b020d5cdb402" /> |
+
+| BenHealth | Settings |
+| --------- | -------- |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 11 16 PM" src="https://github.com/user-attachments/assets/ec122168-e731-4b3d-ba48-57561f3472ab" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 11 39 PM" src="https://github.com/user-attachments/assets/0391382f-4fca-4cdb-9bb8-fdbb31980551" /> |
 
 | BenViewer | BenStudio |
 | --------- | --------- |
-| <img width="1440" height="812" alt="Screenshot 2026-09-20 at 10 43 03 AM" src="https://github.com/user-attachments/assets/2246d7f1-a0a7-4983-a54c-be550706c0c5" /> | <img width="1440" height="812" alt="Screenshot 2026-09-20 at 10 43 22 AM" src="https://github.com/user-attachments/assets/c8a277e7-5616-4bfc-bf9d-e5d6f4fa266a" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 06 52 PM" src="https://github.com/user-attachments/assets/d05f8752-3fb4-4c18-9ccd-d776cf3cf0d4" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 07 19 PM" src="https://github.com/user-attachments/assets/f993e048-3169-408f-9b04-21a90918f9e6" /> |
 
 ## For Businesses
 In BenOS HTML, you can enable Demo Mode to show off devices with an ultra-high-performance, lightweight OS. You can present it on any device, to anyone! The best part is, BenOS HTML has BenOS Connect fused into the software, so no matter what users try to do, they cannot mess with your own BenOS HTML stuff, only the stuff that needs to be shown off. All you have to do is create an account to host the demo and follow these steps:
