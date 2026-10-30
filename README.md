@@ -1,5 +1,5 @@
-# ![logo](https://lh3.googleusercontent.com/pw/AP1GczOAmg904sOHG3i5Y9jW8Q9ZX856tuUtnaayBxIvaM-hYd5NLaqUc_yy84NyF7wHtS9ZRRFjxYQKzW-atFrEwqw1Mn_lHq7CQeOYGEoEFrDJZCn8p1U5KFCPXSgJ5D9IPeB4359AbRkUUpxDOp24J0NQ=w500-h125-p)
-BenOS HTML is a high-performance, browser-based OS for productivity and creation running in any modern browser on a very light installation file (zip downloadable here). Built on HTML and JavaScript, BenOS HTML offers an intuitive file manager, exclusive music on BenMusic, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Here is a list of the apps pre-installed on BenOS HTML:
+# ![logo](https://lh3.googleusercontent.com/pw/AP1GczMwsnH3lkZKt-oewswqTZPXYbsDkyTXIDdmmP5WW6hLtiP_HIXMIUBHVODrCGOeMtjypZgc1gMB7N23i4GovRO5GIb0u9Ah6eI51IeCtCQ5Smm-cHTiV5iMp5zUebr2w_KGqAr0XxDnwikM_MQGazTj=w490-h130-p)
+BenOS Genesis is a high-performance, browser-based OS for productivity and creation running in any modern browser on a very light installation file (zip downloadable here). Built on HTML and JavaScript, BenOS HTML offers an intuitive file manager, exclusive music on BenMusic, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Here is a list of the apps pre-installed on BenOS Genesis:
 | App | Function |
 |-----|----------|
 | BenAI | The on-device AI assistant (with Open Chat download available) that helps you with everyday tasks and knowhow |
@@ -13,12 +13,12 @@ BenOS HTML is a high-performance, browser-based OS for productivity and creation
 | BenViewer | View images and videos natively in BenOS HTML. |
 | BenBrowser | A fast, secure, and private browser built for your workflow, seamlessly integrated into the BenOS ecosystem. |
 
-## Using BenOS HTML on the web (installation below if you prefer on device)
-To use BenOS HTML on the web, visit [mybenos.benjaminoriginals.com](https://mybenos.benjaminoriginals.com)
+## Using BenOS Genesis on the web (installation below if you prefer on device)
+To use BenOS Genesis on the web, visit [mybenos.benjaminoriginals.com](https://mybenos.benjaminoriginals.com)
 Is is better or worse? No, it is just the same. All of your data is saved and is kept even when updates are pushed to the web version. As long as you don't mess with your browser's cache/storage settings, it should be fine. If you do plan on tweaking browser cache/storage settings, you may want to back up important data just in case.
 
 ## Installation & On-device Usage
-When you install BenOS HTML, make sure to set up your account in the Settings app's Account section. Set up your name, add a password (optional), and add a hint (optional).
+When you install BenOS Genesis, make sure to set up your account in the Settings app's Account section. Set up your name, add a password (optional), and add a hint (optional).
 
 #### 1. Download files:
 Click on the green 'Code' button at the top of the repository, and click 'Download ZIP'
@@ -27,7 +27,7 @@ Click on the green 'Code' button at the top of the repository, and click 'Downlo
 Extract the files from the ZIP, then open the folder and double-click on the HTML file (may look like: **BenOS HTML _version_.html**)
 
 #### 3. Run the OS:
-When the HTML file is opened in your browser, open settings and set up your user account. Then, you're all set to have fun using BenOS HTML!
+When the HTML file is opened in your browser, open settings and set up your user account. Then, you're all set to have fun using BenOS Genesis!
 
 *Note for persistent storage:* For the IndexedDB file system to save your data permanently, it is highly recommended to serve the file over a local HTTP server (e.g., VS Code Live Server, Python's http.server) rather than opening it directly via the _file://_ protocol.
 
@@ -60,7 +60,7 @@ To make BenOS as lightweight as possible, the entire OS lives inside a single HT
 | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 06 52 PM" src="https://github.com/user-attachments/assets/d05f8752-3fb4-4c18-9ccd-d776cf3cf0d4" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 07 19 PM" src="https://github.com/user-attachments/assets/f993e048-3169-408f-9b04-21a90918f9e6" /> |
 
 ## For Businesses
-In BenOS HTML, you can enable Demo Mode to show off devices with an ultra-high-performance, lightweight OS. You can present it on any device, to anyone! The best part is, BenOS HTML has BenOS Connect fused into the software, so no matter what users try to do, they cannot mess with your own BenOS HTML stuff, only the stuff that needs to be shown off. All you have to do is create an account to host the demo and follow these steps:
+In BenOS Genesis, you can enable Demo Mode to show off devices with an ultra-high-performance, lightweight OS. You can present it on any device, to anyone! The best part is, BenOS HTML has BenOS Connect fused into the software, so no matter what users try to do, they cannot mess with your own BenOS HTML stuff, only the stuff that needs to be shown off. All you have to do is create an account to host the demo and follow these steps:
 ### Activating Demo Mode
 Under Settings > Users, you can turn on the Demo Mode toggle, which will instantly activate the demo. Anyone who comes up to the device will be restricted to only the demo.
 ### Deactivating Demo Mode
