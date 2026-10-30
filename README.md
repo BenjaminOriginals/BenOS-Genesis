@@ -1,5 +1,5 @@
 # ![logo](https://lh3.googleusercontent.com/pw/AP1GczMwsnH3lkZKt-oewswqTZPXYbsDkyTXIDdmmP5WW6hLtiP_HIXMIUBHVODrCGOeMtjypZgc1gMB7N23i4GovRO5GIb0u9Ah6eI51IeCtCQ5Smm-cHTiV5iMp5zUebr2w_KGqAr0XxDnwikM_MQGazTj=w490-h130-p)
-BenOS Genesis is a high-performance, browser-based OS for productivity and creation running in any modern browser on a very light installation file (zip downloadable here). Built on HTML and JavaScript, BenOS HTML offers an intuitive file manager, exclusive music on BenMusic, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Here is a list of the apps pre-installed on BenOS Genesis:
+BenOS Genesis is a high-performance, browser-based OS for productivity and creation running in any modern browser. Built on HTML, CSS, and JavaScript, BenOS HTML offers an intuitive file manager, exclusive music on BenMusic, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Here is a list of the apps pre-installed on BenOS Genesis:
 | App | Function |
 |-----|----------|
 | BenAI | The on-device AI assistant (with Open Chat download available) that helps you with everyday tasks and knowhow |
