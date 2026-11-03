@@ -1,4 +1,4 @@
-# BenOS HTML Edition License
+# BenOS Genesis License
 
 **Copyright © 2026 Benjamin Originals. All rights reserved.**
 
@@ -8,7 +8,7 @@
 
 ## 1. Ownership & Proprietary Rights
 
-The Software, including all source code, design assets, conceptual frameworks, and documentation comprising **BenOS HTML** also previously known as **BenOS HTML Edition**, is the exclusive intellectual property of **Benjamin Originals** under BenOS. 
+The Software, including all source code, design assets, conceptual frameworks, and documentation comprising **BenOS Genesis** also previously known as **BenOS HTML**, is the exclusive intellectual property of **Benjamin Originals** under BenOS.
 
 Ownership remains entirely with the parent company and its founder. This license does not grant any right, title, or interest in or to the Software except as expressly set forth herein.
 
@@ -17,7 +17,7 @@ Ownership remains entirely with the parent company and its founder. This license
 No person, entity, or organization is permitted to:
 
 *   **Copy, Reproduce, or Duplicate:** Replicate the source code, user interface designs, or structural logic of this project in whole or in part.
-*   **Modify or Adapt:** Create derivative works, adaptations, or translations based upon the Software.
+*   **Modify or Adapt:** Create derivative works, adaptations, or translations based upon the Software. You may only view the code.
 *   **Distribute or Share:** Redistribute, sublicense, publish, lease, or make the Software available to any third party via network, download, or physical media.
 *   **Commercial or Personal Use:** Utilize the Software for any commercial, public, or private deployment without explicit, written authorization from Benjamin Originals.
 
