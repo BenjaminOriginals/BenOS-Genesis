@@ -1,17 +1,23 @@
 # Security Policy
 
-Benjamin Originals takes the security of BenOS HTML seriously. We appreciate your efforts to responsibly disclose your findings and help us keep the platform safe.
+Benjamin Originals takes the security of BenOS Genesis seriously. We appreciate your efforts to responsibly disclose your findings and help us keep the platform safe.
 
 ## Supported Versions
 
 Currently, security updates and patches are only provided for the following versions:
 
-| Version    | Supported          |
-| ---------- | ------------------ |
-| V1 Calvin  | :white_check_mark: |
-| V1 Beta    | :white_check_mark: |
-| V0.1 Beta  | :x: |
-| Beta0.1    | :x: |
+| Version          | Supported            |
+| ---------------- | -------------------- |
+| V2 Genesis Mobile   | :white_check_mark: |
+| V2 Genesis Desktop  | :white_check_mark: |
+| V1 Foil Oil         | :x: |
+| V1 Beta             | :x: |
+| V0.1 Beta           | :x: |
+| Beta0.1             | :x: |
+
+## Need help?
+
+Commonly asked questions and their corresponding answers are available [here](https://benjaminoriginals.com/Support). The Benjamin Originals support page provides tons of useful information.
 
 ## Reporting a Vulnerability
 
