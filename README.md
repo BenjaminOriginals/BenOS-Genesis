@@ -14,26 +14,9 @@ BenOS Genesis is a high-performance, browser-based OS for productivity and creat
 | BenViewer | View images and videos natively in BenOS Genesis. |
 | BenBrowser | A fast, secure, and private browser built for your workflow, seamlessly integrated into the BenOS ecosystem. |
 
-## Using BenOS Genesis on the web (installation below if you prefer on device)
+## Using BenOS Genesis on the web (installation later in this README if you prefer)
 To use BenOS Genesis on the web, visit [mybenos.benjaminoriginals.com](https://mybenos.benjaminoriginals.com)
 Is is better or worse? No, it is just the same. All of your data is saved and is kept even when updates are pushed to the web version. As long as you don't mess with your browser's cache/storage settings, it should be fine. If you do plan on tweaking browser cache/storage settings, you may want to back up important data just in case.
-
-## Installation & On-device Usage
-When you install BenOS Genesis, make sure to set up your account in the Settings app's Account section. Set up your name, add a password (optional), and add a hint (optional).
-
-#### 1. Download files:
-Click on the green 'Code' button at the top of the repository, and click 'Download ZIP'
-
-#### 2. Set up BenOS Genesis
-Extract the files from the ZIP, then open the folder and double-click on the HTML file (will look like: **index.html**)
-
-#### 3. Run the OS:
-When the HTML file is opened in your browser, open settings and set up your user account. Then, you're all set to have fun using BenOS Genesis!
-
-*Note for persistent storage:* For the IndexedDB file system to save your data permanently, it is highly recommended to serve the file over a local HTTP server (e.g., VS Code Live Server, Python's http.server) rather than opening it directly via the _file://_ protocol.
-
-## Technical Architecture
-To make BenOS as lightweight as possible, the entire OS lives inside a single HTML/JS configuration. The file system relies heavily on async JavaScript, using Promises to manage IndexedDB transactions. For security, apps launch inside their own sandboxed iframes (using allow-scripts and allow-forms). We also built a custom crash bridge listener, so if one app goes down, it won’t crash the whole OS.
 
 ## Screenshots
 | Sign in Screen | Desktop | 
@@ -68,6 +51,23 @@ Under Settings > Users, you can turn on the Demo Mode toggle, which will instant
 Under Settings > Users, turn off the Demo Mode toggle. You will have to enter your admin password in order for it to be disabled, so do not worry about users attempting this. BenOS Genesis has strict protocols preventing Demo Mode from being disabled by anyone not authorized to do so.
 ### What does Demo Mode do?
 Demo Mode restricts users' capabilities. First of all, users will only be allowed to access BenBrowser, BenMusic, BenPen, and Settings. This prevents them from messing with your files or using the terminal to do bad stuff. This will also prevent users from clearing notifications, shutting down BenOS, logging out of the current Demo Mode user, or deleting important things. Demo Mode also locks certain sensitive settings, like modifying the name, password, or password hint of the Demo User and keeps your account safe and secure while it is in the hands of others during Demo Mode.
+
+## Installation & On-device Usage
+When you install BenOS Genesis, make sure to set up your account in the Settings app's Account section. Set up your name, add a password (optional), and add a hint (optional).
+
+#### 1. Download files:
+Click on the green 'Code' button at the top of the repository, and click 'Download ZIP'
+
+#### 2. Set up BenOS Genesis
+Extract the files from the ZIP, then open the folder and double-click on the HTML file (will look like: **index.html**)
+
+#### 3. Run the OS:
+When the HTML file is opened in your browser, open settings and set up your user account. Then, you're all set to have fun using BenOS Genesis!
+
+*Note for persistent storage:* For the IndexedDB file system to save your data permanently, it is highly recommended to serve the file over a local HTTP server (e.g., VS Code Live Server, Python's http.server) rather than opening it directly via the _file://_ protocol.
+
+## Technical Architecture
+To make BenOS as lightweight as possible, the entire OS lives inside a single HTML/JS configuration. The file system relies heavily on async JavaScript, using Promises to manage IndexedDB transactions. For security, apps launch inside their own sandboxed iframes (using allow-scripts and allow-forms). We also built a custom crash bridge listener, so if one app goes down, it won’t crash the whole OS.
 
 ## Extra info
 BenOS Genesis does not interact with, modify, or provide the security guarantees of your host operating system (macOS, Windows, Linux, etc.). Because storage relies on browser-based systems like IndexedDB and localStorage, clearing your browser data or cache may result in the permanent loss of virtual files and user configurations. Please back up any important files or data.
