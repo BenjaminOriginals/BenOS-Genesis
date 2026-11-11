@@ -6,13 +6,16 @@ BenOS Genesis is a high-performance, browser-based OS for productivity and creat
 | BenWeather | Real-time weather for your current or approximate location, in a clean dashboard integrated right into BenOS. |
 | BenMusic | Ad-free, offline music - no subscription required! The library of available music is always expanding, and you can request new music to be added by contacting us (see Contact section). |
 | Files | Your secure personal and workspace file viewer. The Files app gives ultimate transparency, truly showing you what is taking up storage on your BenOS device. |
-| Terminal | Interact with the system and execute commands through a text-based interface. |
 | BenPen | Make simple art and handwritten notes natively in BenOS Genesis. Save, open, edit, and export projects any time! |
+| Clock | Set timers for yourself, use the stopwatch, and check out the time in any timezone around the world! Timers and stopwatches appear as live notifications, in an easily accessible pill in every corner of BenOS. |
+| App Store | Find and install amazing apps, built for BenOS. |
+| Terminal | Interact with the system and execute commands through a text-based interface. |
 | BenHealth | Health meets the big screen. With everything you need on the biggest portable (or non portable) screen you have, interact with an advanced, research-driven health app. No payments, ever. |
 | BenStudio | Native HTML, CSS, and JavaScript editor - make your own apps to install right in BenOS Genesis! With BenStudio, as long as you can program in HTML, you can build any app you want! |
 | BenCam | Snap a picture or video in the app, or use it to make your profile picture. Includes night mode and Pro Tools. |
 | BenViewer | View images and videos natively in BenOS Genesis. |
 | BenBrowser | A fast, secure, and private browser built for your workflow, seamlessly integrated into the BenOS ecosystem. |
+| Calculator | The amazing, beautiful calculator for BenOS. The power of numbers is in your hands. |
 
 ## Using BenOS Genesis on the web (installation later in this README if you prefer)
 To use BenOS Genesis on the web, visit [mybenos.benjaminoriginals.com](https://mybenos.benjaminoriginals.com)
@@ -21,27 +24,35 @@ Is is better or worse? No, it is just the same. All of your data is saved and is
 ## Screenshots
 | Sign in Screen | Desktop | 
 | -------------- | ------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 03 11 PM" src="https://github.com/user-attachments/assets/eb385fe0-e739-4d71-bb13-89806590ef08" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 01 44 PM" src="https://github.com/user-attachments/assets/e6b43c89-36aa-4359-a56f-a560ffa81bae" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 49 48 PM" src="https://github.com/user-attachments/assets/4701b92b-3fb7-4572-a8eb-3ee76e007d65" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 50 23 PM" src="https://github.com/user-attachments/assets/a9a0526a-3275-423e-b097-e9e3b5e5a139" /> |
 
 | Lock Screen | Desktop (Dark Mode) |
 | ----------- | ------------------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 03 32 PM" src="https://github.com/user-attachments/assets/4e15a407-cd33-4fe9-b239-fda98e0741ea" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 04 00 PM" src="https://github.com/user-attachments/assets/f718f7f4-632e-41bb-acc9-3320f35f4848" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 52 32 PM" src="https://github.com/user-attachments/assets/60a44b9c-8487-4bb1-bb91-5c41ae3e8be0" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 53 09 PM" src="https://github.com/user-attachments/assets/d2a7347f-db11-446b-9794-c716979365c4" /> |
 
 | BenMusic | BenAI |
 | -------- | ----- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 04 33 PM" src="https://github.com/user-attachments/assets/9108d968-6eb8-498f-a917-6d694fdf0684" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 05 28 PM" src="https://github.com/user-attachments/assets/f01b889c-683e-4134-8b44-74895c1536fb" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 54 14 PM" src="https://github.com/user-attachments/assets/9ef6584d-8f6a-4ef9-b57c-e0df8f1290e0" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 55 16 PM" src="https://github.com/user-attachments/assets/6449541a-22d6-4f90-bde7-840de4a68026" /> |
 
 | BenWeather | BenBrowser |
 | ---------- | ---------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 10 06 PM" src="https://github.com/user-attachments/assets/9a153301-0f2c-45c5-bba9-96ae4c13849f" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 10 42 PM" src="https://github.com/user-attachments/assets/6a238dc5-e83b-4e1e-a686-b020d5cdb402" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 59 01 PM" src="https://github.com/user-attachments/assets/b4c2912b-ee26-4c85-95b2-526baac0f494" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 2 59 30 PM" src="https://github.com/user-attachments/assets/1f79a4e3-620f-4474-9814-bad51c8c87c2" /> |
+
+| Calculator, BenViewer, and Terminal | BenCam |
+| ----------------------------------- | ------ |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 12 55 PM" src="https://github.com/user-attachments/assets/be2a7e99-c34c-4e24-ab8e-83bba9673315" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 02 16 PM" src="https://github.com/user-attachments/assets/80175c39-d675-45dc-b7d2-93735279d515" /> |
+
+| Clock | Files |
+| ---------- | ---------- |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 04 05 PM" src="https://github.com/user-attachments/assets/ae9b4923-9eb4-4de5-82c8-3c708cc0a7b4" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 04 35 PM" src="https://github.com/user-attachments/assets/2077e308-edd3-4596-8d18-44b6849ade49" /> |
 
 | BenHealth | Settings |
 | --------- | -------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 11 16 PM" src="https://github.com/user-attachments/assets/ec122168-e731-4b3d-ba48-57561f3472ab" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 11 39 PM" src="https://github.com/user-attachments/assets/0391382f-4fca-4cdb-9bb8-fdbb31980551" /> |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 05 36 PM" src="https://github.com/user-attachments/assets/fe79acbb-7922-4d99-9166-8de6fd13d1ed" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 3 25 20 PM" src="https://github.com/user-attachments/assets/89762f7e-41b6-4bc5-887e-88583cd05678" /> |
 
-| BenViewer | BenStudio |
-| --------- | --------- |
-| <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 06 52 PM" src="https://github.com/user-attachments/assets/d05f8752-3fb4-4c18-9ccd-d776cf3cf0d4" /> | <img width="1440" height="812" alt="Screenshot 2026-10-20 at 10 07 19 PM" src="https://github.com/user-attachments/assets/f993e048-3169-408f-9b04-21a90918f9e6" /> |
+| Help | BenStudio |
+| ---- | --------- |
+| <img width="1440" height="812" alt="Screenshot 2026-11-10 at 7 47 23 PM" src="https://github.com/user-attachments/assets/2c2a317f-0a6f-4997-ba83-630572e0686f" /> | <img width="1440" height="812" alt="Screenshot 2026-11-10 at 7 47 46 PM" src="https://github.com/user-attachments/assets/41695fa7-525e-4840-a404-ac865f277fdd" /> |
 
 ## For Businesses
 In BenOS Genesis, you can enable Demo Mode to show off devices with an ultra-high-performance, lightweight OS. You can present it on any device, to anyone! The best part is, BenOS Genesis has BenOS Connect fused into the software, so no matter what users try to do, they cannot mess with your own BenOS Genesis stuff, only the stuff that needs to be shown off. All you have to do is create an account to host the demo and follow these steps:
