@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://yt3.googleusercontent.com/-znaq5oM9pnqWOLOXj4ATespUfmaGw9sYsVrwssVLpFrqg-Eo66obj-9C0rhAdPYhPDp3xFF=s160-c-k-c0x00ffffff-no-rj">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7Z96JXJCB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7Z96JXJCB');
+</script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome!</title>
+<!-- Share cards (Open Graph + Twitter/X) -->
+<meta name="description" content="Start here: your first steps in BenOS Genesis, a whole operating system in your browser.">
+<link rel="canonical" href="https://mybenos.benjaminoriginals.com/welcome">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BenOS Genesis">
+<meta property="og:title" content="Welcome to BenOS Genesis">
+<meta property="og:description" content="Start here: your first steps in BenOS Genesis, a whole operating system in your browser.">
+<meta property="og:url" content="https://mybenos.benjaminoriginals.com/welcome">
+<meta property="og:image" content="https://mybenos.benjaminoriginals.com/og/og-welcome.png">
+<meta property="og:image:secure_url" content="https://mybenos.benjaminoriginals.com/og/og-welcome.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Welcome to BenOS Genesis: the BenOS Genesis logo and the Benjamin Originals logo over a soft aurora">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Welcome to BenOS Genesis">
+<meta name="twitter:description" content="Start here: your first steps in BenOS Genesis, a whole operating system in your browser.">
+<meta name="twitter:image" content="https://mybenos.benjaminoriginals.com/og/og-welcome.png">
+<meta name="twitter:image:alt" content="Welcome to BenOS Genesis: the BenOS Genesis logo and the Benjamin Originals logo over a soft aurora">
+
+</head>
+<body>
+<style>
+  body {
+    margin: 0;
+    padding: 60px 20px;
+    min-height: 100vh;
+    /* Cinematic deep space/dark atmospheric background */
+    background: radial-gradient(circle at center, #1b1b24 0%, #050508 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
+    color: #e0e0e0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  /* Cinematic light leak/glow effect behind content */
+  body::before {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 50%, rgba(41, 171, 226, 0.03) 0%, transparent 60%);
+    animation: slowDrift 20s linear infinite;
+    z-index: -1;
+  }
+
+  @keyframes slowDrift {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    max-width: 800px;
+    width: 100%;
+    animation: cinematicFadeIn 2s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes cinematicFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Epic Sci-Fi UI Button */
+  .run-button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 18px 48px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(41, 171, 226, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.02);
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .run-button::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 50%; height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
+    transform: skewX(-20deg);
+    transition: all 0.7s ease;
+  }
+
+  .run-button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 0 40px rgba(41, 171, 226, 0.3), inset 0 0 15px rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(41, 171, 226, 0.5);
+    letter-spacing: 5px;
+  }
+
+  .run-button:hover::after {
+    left: 150%;
+  }
+
+  /* Obsidian Glass Card Effect */
+  .epic-card {
+    background: rgba(10, 10, 12, 0.6);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 50px 60px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  }
+
+  .epic-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.9), 0 0 30px rgba(41, 171, 226, 0.05);
+    border-top: 1px solid rgba(41, 171, 226, 0.3);
+  }
+
+  .epic-card h2 {
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 300;
+    /* Metallic text gradient */
+    background: linear-gradient(135deg, #ffffff 0%, #7a828a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .epic-card p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #9a9ca3;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+
+  /* Footer Elements */
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .about-button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 0.3s ease;
+  }
+
+  .about-button:hover {
+    color: #ffffff;
+    border-color: rgba(41, 171, 226, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 15px rgba(41, 171, 226, 0.15);
+  }
+
+  .copyright-text {
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .epic-card {
+      padding: 40px 30px;
+    }
+    .epic-card h2 {
+      font-size: 1.5em;
+      letter-spacing: 4px;
+    }
+    .run-button {
+      padding: 16px 32px;
+      font-size: 1em;
+      letter-spacing: 3px;
+    }
+  }
+</style>
+
+<div class="content-wrapper">
+  
+  <a href="https://mybenos.benjaminoriginals.com" class="run-button">Run BenOS Genesis</a>
+
+  <div class="epic-card">
+    <h2>Welcome to BenOS Genesis!</h2>
+    <p>Hop aboard the most exciting web-based OS experience! Powerful, lightweight, and extremely useful. BenOS Genesis can help you in your everyday life! Go ahead and try it out.</p>
+  </div>
+
+  <div class="epic-card">
+    <h2>Your Data</h2>
+    <p>Your data is stored securely in your browser, ensuring it's always accessible and protected. Your personal data is never shared with 3rd parties, not even Benjamin Originals can access it.</p>
+  </div>
+  
+  <div class="epic-card">
+    <h2>Apps</h2>
+    <p>Access a growing library of built-in web applications designed to elevate your productivity, creativity, and entertainment. Everything you need is seamlessly integrated directly into your cinematic workspace.</p>
+  </div>
+
+  <div class="epic-card">
+    <h2>Daily Uses</h2>
+    <p>From managing complex tasks and taking quick notes to organizing your entire schedule, BenOS Genesis is engineered to streamline your daily workflow within one lightning-fast, beautifully minimal interface.</p>
+  </div>
+
+  <div class="footer-container">
+    <a href="https://mybenos.benjaminoriginals.com/about" class="about-button">Visit the About page</a>
+    <p class="copyright-text">&copy; 2026 Benjamin Originals. All rights reserved.</p>
+  </div>
+
+</div>
+</body>
+</html>

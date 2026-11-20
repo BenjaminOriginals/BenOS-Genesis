@@ -1,0 +1,66 @@
+{
+  "_README": [
+    "BenOS Help → System Status reads this file to show notices to everyone using BenOS.",
+    "Where it must live: the ROOT of github.com/BenjaminOriginals/BenOS-Genesis, on the main branch (same folder as index.html).",
+    "BenOS fetches it each time someone opens Help (it re-checks at most once a minute). GitHub can take up to ~5 minutes to show a new version.",
+    "JSON can't have comments, so these notes live in keys that start with an underscore. BenOS ignores every key except \"notices\", so you can leave all of this in.",
+    "No notices right now? Keep \"notices\" as an empty list: [ ]. (Deleting the file also means 'no notices'.)",
+    "BenOS shows at most 3 notices. Titles are cut at 120 characters, messages at 600. Text is shown as plain text (no HTML, no links)."
+  ],
+
+  "_HOW_TO_POST_A_NOTICE": [
+    "1. Copy one of the examples from \"_EXAMPLES\" below.",
+    "2. Paste it inside the [ ] of \"notices\" (separate several notices with commas).",
+    "3. Change the title, message and dates, then commit the file.",
+    "Check your JSON is valid before committing (e.g. paste it into jsonlint.com): one missing comma and BenOS shows no notices at all."
+  ],
+
+  "_FIELDS": {
+    "level": "How serious it is. One of: \"outage\" (red: something is down), \"warning\" (amber: a known issue), \"info\" (blue: a general note), \"resolved\" (blue: it's fixed). Anything else counts as \"info\".",
+    "title": "Short headline, shown in bold and on the Help Home banner. Example: \"Weather is delayed\".",
+    "message": "One or two plain sentences: what's affected and what people should do.",
+    "updated": "Optional. When you last changed the notice, in ISO format with a Z for UTC: \"2026-11-06T15:30:00Z\". Shown as 'Updated Nov 6, 3:30 PM' in the reader's own time zone.",
+    "until": "Optional. When BenOS should stop showing it automatically, same format. Leave it out to show the notice until you remove it."
+  },
+
+  "_WHAT_PEOPLE_SEE": [
+    "outage  → the Help Home banner and the toolbar pill turn red ('Outage'), with your title and message.",
+    "warning → amber banner and pill ('Service issue').",
+    "info    → shown on System Status, and on the Home banner only when nothing else is wrong.",
+    "resolved → shown on System Status as 'Resolved: …'. Remove it (or set \"until\") after a day or so.",
+    "Notices come first: a red/amber notice wins over BenOS's own live checks in the banner."
+  ],
+
+  "_EXAMPLES": [
+    {
+      "level": "outage",
+      "title": "BenID sign-in is down",
+      "message": "BenID sign-in and Phone & Desktop sync aren't working right now. Your files and everything else in BenOS work normally. We're on it.",
+      "updated": "2026-11-06T15:30:00Z"
+    },
+    {
+      "level": "warning",
+      "title": "Wallpapers and music are slow to download",
+      "message": "BenServer is busy, so new wallpapers and songs may take longer to appear. Ones already on your device are fine.",
+      "updated": "2026-11-06T15:30:00Z",
+      "until": "2026-11-07T00:00:00Z"
+    },
+    {
+      "level": "info",
+      "title": "Planned maintenance on Sunday",
+      "message": "BenServer will be updated on Sunday 9 Nov from 02:00 to 03:00 UTC. BenID and sync may pause briefly.",
+      "until": "2026-11-09T03:00:00Z"
+    },
+    {
+      "level": "resolved",
+      "title": "BenID sign-in is back",
+      "message": "Everything is working again. Thanks for your patience.",
+      "updated": "2026-11-06T17:00:00Z",
+      "until": "2026-11-07T17:00:00Z"
+    }
+  ],
+
+  "notices": [
+    
+  ]
+}

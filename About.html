@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://yt3.googleusercontent.com/-znaq5oM9pnqWOLOXj4ATespUfmaGw9sYsVrwssVLpFrqg-Eo66obj-9C0rhAdPYhPDp3xFF=s160-c-k-c0x00ffffff-no-rj">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7Z96JXJCB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F7Z96JXJCB');
+</script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About BenOS Genesis</title>
+<!-- Share cards (Open Graph + Twitter/X) -->
+<meta name="description" content="The story behind BenOS Genesis, a whole operating system in your browser.">
+<link rel="canonical" href="https://mybenos.benjaminoriginals.com/about">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BenOS Genesis">
+<meta property="og:title" content="About BenOS Genesis">
+<meta property="og:description" content="The story behind BenOS Genesis, a whole operating system in your browser.">
+<meta property="og:url" content="https://mybenos.benjaminoriginals.com/about">
+<meta property="og:image" content="https://mybenos.benjaminoriginals.com/og/og-about.png">
+<meta property="og:image:secure_url" content="https://mybenos.benjaminoriginals.com/og/og-about.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="About BenOS Genesis: the BenOS Genesis logo and the Benjamin Originals logo over a soft aurora">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About BenOS Genesis">
+<meta name="twitter:description" content="The story behind BenOS Genesis, a whole operating system in your browser.">
+<meta name="twitter:image" content="https://mybenos.benjaminoriginals.com/og/og-about.png">
+<meta name="twitter:image:alt" content="About BenOS Genesis: the BenOS Genesis logo and the Benjamin Originals logo over a soft aurora">
+
+</head>
+<body>
+<style>
+  body {
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    /* Animated vibrant gradient background */
+    background: linear-gradient(135deg, #4f00bc, #29abe2, #ff007f);
+    background-size: 300% 300%;
+    animation: gradientBG 12s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Allows scrolling if content gets tall */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  /* Glossy Button Style */
+  .run-button {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 16px 40px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .run-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 32px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  /* Glossy / Glassmorphism card effect */
+  .glossy-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    padding: 40px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .glossy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .glossy-card h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* Glossy text gradient */
+    background: linear-gradient(to bottom right, #ffffff, #b3e5fc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .glossy-card p {
+    font-size: 1.15em;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .glossy-card {
+      padding: 30px 20px;
+    }
+    .glossy-card h2 {
+      font-size: 2em;
+    }
+    .run-button {
+      padding: 14px 30px;
+      font-size: 1.1em;
+    }
+  }
+   .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .about-button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 0.3s ease;
+  }
+
+  .about-button:hover {
+    color: #ffffff;
+    border-color: rgba(41, 171, 226, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 15px rgba(41, 171, 226, 0.15);
+  }
+
+  .copyright-text {
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .epic-card {
+      padding: 40px 30px;
+    }
+    .epic-card h2 {
+      font-size: 1.5em;
+      letter-spacing: 4px;
+    }
+    .run-button {
+      padding: 16px 32px;
+      font-size: 1em;
+      letter-spacing: 3px;
+    }
+  }
+</style>
+
+<div class="content-wrapper">
+  
+  <a href="https://mybenos.benjaminoriginals.com" class="run-button">Run BenOS Genesis</a>
+
+  <div class="glossy-card">
+    <h2>About BenOS Genesis</h2>
+    <p>BenOS Genesis is a high-performance, browser-based OS for productivity and creativity that can run in any modern browser. Built on HTML and JavaScript, BenOS Genesis offers an intuitive file manager, exclusive music on BenMusic, a great hub for research in the BenBrowser, an HTML editor with live preview in the BenStudio app, and amazing customization in Settings. Check it out now by clicking "Run BenOS Genesis"!</p>
+  </div>
+
+  <div class="glossy-card">
+    <h2>The Power of Choice</h2>
+    <p>Why is BenOS Genesis on the web and available for download? Benjamin Originals believes in the power of choices, and if you want to have it downloaded go ahead! If you just want to access it through the web portal, go ahead! Neither has disadvantages nor advantages, both are built on the same file.</p>
+  </div>
+
+  <div class="footer-container">
+    <a href="https://mybenos.benjaminoriginals.com/welcome" class="about-button">Visit the Welcome page</a>
+    <p class="copyright-text">&copy; 2026 Benjamin Originals. All rights reserved.</p>
+  </div>
+
+</div>
+</body>
+</html>
